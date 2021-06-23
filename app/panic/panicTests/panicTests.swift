@@ -16,7 +16,7 @@ class panicTests: XCTestCase {
 
         let p = PanickerPanickerImpl()
         let d = Data(repeating: 1, count: 10)
-        for _ in 1...100_000 {
+        for _ in 1...10_000_000 {
             let r = try p.panic(d)
             XCTAssertEqual(r.count, d.count)
         }
