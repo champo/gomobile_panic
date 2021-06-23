@@ -1,0 +1,8 @@
+framework module "Panicker" {
+	header "ref.h"
+    header "Panicker.objc.h"
+    header "Universe.objc.h"
+    header "Panicker.h"
+
+    export *
+}
